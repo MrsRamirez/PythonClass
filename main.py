@@ -13,25 +13,22 @@ print("The total is ${}".format(total))
 
 '''
 #Version 2
-prices = []   #Create an empty list
+prices = []  #Create an empty list
 total = 0  #Initialize the total at zero
 num_items = int(input("How many items do you want to order?"))
 
 #Ask for the price of the items and append to the list
 for num in range(num_items):
-  item_cost = input ("How much is the cost of item " + str(num + 1) + " ?") 
-  prices.append(float(item_cost))
+    item_cost = input("How much is the cost of item " + str(num + 1) + " ?")
+    prices.append(float(item_cost))
 
-print ("prices: ", prices)
+print("prices: ", prices)
 
 #Add up all of the prices
 for x in prices:
-  total += x
+    total += x
 
 print("The total cost is ${}".format(total))
-
-
-
 '''
 # #Version 3
 prices = []   #Create an empty list for the prices
